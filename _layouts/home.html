@@ -62,4 +62,15 @@ layout: default
     </tbody>
   </table>
 
+  <h2 id="docstring">docstring</h2>
+
+  <table class="rules-table">
+    <tbody>
+      {% for rule in site.rules %}
+        {% if rule.code contains 'D' %}
+          {% include rule-row.html rule=rule %}
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
