@@ -1,13 +1,13 @@
 # Site settings
-title: Flake8 Rules
-email: grantmcconnaughey@gmail.com
+title: Правила для Flake8
+email: ruslan@rsln.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Descriptions and examples for each of the rules in Flake8 (pyflakes, pycodestyle, and mccabe).
+  Описания и примеры правил для Flake8 (pyflakes, pycodestyle, mccabe и flake8-docstrings).
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.flake8rules.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gmcconnaughey
-github_username:  grantmcconnaughey
-google_analytics: UA-51900491-5
+twitter_username: rustrans
+github_username:  ruslaniv
+google_analytics: G-YH7DTDJ5YS
 
 # Build settings
 markdown: kramdown
