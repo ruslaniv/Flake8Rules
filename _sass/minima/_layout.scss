@@ -20,18 +20,23 @@
   }
 }
 
-header .wrapper nav {
+header .wrapper {
+  display: flex;
 
-  ul {
-    display: flex;
+  nav {
 
-    li {
-      list-style-type: none;
-      margin-left: 16px;
+   ul {
+     display: flex;
 
-    }
-  }
+     li {
+       list-style-type: none;
+       margin-left: 16px;
+
+     }
+   }
+ }
 }
+
 .site-nav {
   line-height: $base-line-height * $base-font-size * 2.25;
   margin-left: auto;
@@ -126,7 +131,7 @@ header .wrapper nav {
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
-  //@extend %clearfix;
+  @extend %clearfix;
 }
 
 .footer-col {
@@ -223,7 +228,7 @@ header .wrapper nav {
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 2*$spacing-unit;
 
   h2 {
     @include relative-font-size(2);
