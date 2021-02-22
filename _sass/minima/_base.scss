@@ -23,6 +23,7 @@ body, .pure-g [class *= "pure-u"] {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  overscroll-behavior-y: none;
 }
 
 
