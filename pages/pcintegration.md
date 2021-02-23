@@ -24,3 +24,9 @@ Workign directory:  $ContentRoot$
 ```python
 PyCharm -> Preferences -> Plugins
 ```
+
+В результате запуска flake8 для проверяемого файла, в консоли PyCharm мы видим кликабельные ссылки на каждое правило
+```python
+PyCharm -> Tools -> Plugins -> External Tools -> flake8
+```
+![PyCharm falke8 integration example](demo.png "flake8 PyCharm Demo")
