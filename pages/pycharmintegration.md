@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Интеграция правил flake8 в PyCharm
-permalink: /pages/pcintegration.html
+permalink: /pages/pycharmintegration.html
 ---
 
 #### Для интеграции описаний правил flake8 и примеров для них в JetBrains PyCharm необходимо выполнить следующее:
